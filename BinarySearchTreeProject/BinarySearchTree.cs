@@ -57,5 +57,9 @@ namespace BinarySearchTreeProject
                 this.RightTree.Display();
             }
         }
+        public void Size()
+        {
+            Console.WriteLine("Size of BST is: " + (1 + leftCount + rightCount));
+        }
     }
 }
